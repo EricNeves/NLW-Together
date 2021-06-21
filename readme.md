@@ -9,5 +9,15 @@
 
 <h2>🙇🏻‍♂️ O que é a Next Level Week?</h2>
 
-<p>A NLW ou Next Level Week, é um evento online, totalmente gratuito, oferecido pela Rocketseat, que consiste, em uma semana com muito conteúdo prático, cheios de desafios e com um projeto que nos ajuda a avançar e atingir o próximo nivel.</p>
+<p>A NLW ou Next Level Week, é um evento online, totalmente gratuito, oferecido pela Rocketseat, que consiste, em uma semana com muito conteúdo prático, cheios de desafios e com um projeto que nos ajuda a avançar e atingir o próximo nível.</p>
 
+<h2>🌍 Dias</h2>
+
+<ul>
+    <li>Dia 1: Liftoff 20/06 ✔️</li>
+    <li>Dia 2: Maximum Speed 21/06 </li>
+    <li>Dia 3: In Orbit 22/06 </li>
+    <li>Dia 4: Landing 23/06 </li>
+    <li>Dia 5: Surface Exploration 24/06 </li>
+    <li>Dia 5: O Próximo Nível 25/06 </li>
+</ul>
