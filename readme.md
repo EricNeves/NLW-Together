@@ -1,6 +1,7 @@
 <h1 align="center">NextLevelWeek 6.0</h1>
 <div align="center">
     <img src="./github/nlw.svg" alt="Logo">
+    <br />
     <img src="./github/rocketseat.svg" alt="Logo">
 </div><br />
 
