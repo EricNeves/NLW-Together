@@ -2,6 +2,8 @@
 </h1>
 
 <p align="center">	
+<img src="https://img.shields.io/badge/made%20by-Eric%20Neves-%2304D361" alt="Badge">
+
 <img src="https://img.shields.io/github/repo-size/EricNeves/NLW-Together" alt="Badge">
 
 <img src="https://img.shields.io/github/last-commit/ericneves/nlw-together" alt="Badge">
