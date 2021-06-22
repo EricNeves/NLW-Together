@@ -23,6 +23,6 @@
     <li>Dia 6: O Próximo Nível 25/06 </li>
 </ul>
 
-<h2>💻 Projeto</h2>
+<h2>💻 Projeto - NLW Valoriza</h2>
 
 <p>NLW Valozira, é uma API desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
