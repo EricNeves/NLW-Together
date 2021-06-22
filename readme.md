@@ -21,7 +21,10 @@
     <li>Dia 5: Surface Exploration 24/06 </li>
     <li>Dia 6: O Próximo Nível 25/06 </li>
 </ul>
+<<<<<<< HEAD
 
 <h2>💻 Projeto</h2>
 
 <p>NLW Valozira, é uma API desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
+=======
+>>>>>>> c5e1ff82669a92f981dd98174a7fc603c51363d3
