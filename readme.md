@@ -1,4 +1,6 @@
-<h1 align="center">✔️ NextLevelWeek 6.0 - By Rocketseat 🚀 ✔️</h1>
+<h1 align="center">✔️ NextLevelWeek 6.0  
+<img src="./github/logo.svg" alt="Logo">
+</h1>
 
 <p align="center">	
 <img src="https://img.shields.io/github/last-commit/ericneves/nlw-together" alt="Badge">
