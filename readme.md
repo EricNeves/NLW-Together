@@ -1,5 +1,4 @@
-<h1 align="center">✔️ NextLevelWeek 6.0  
-<img src="./github/logo.svg" alt="Logo">
+<h1 align="center">NextLevelWeek 6.0 - <img src="./github/logo.svg" alt="Logo">
 </h1>
 
 <p align="center">	
