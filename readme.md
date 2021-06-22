@@ -24,11 +24,10 @@
 
 <ul>
     <li>Dia 1: Liftoff 20/06 ✔️</li>
-    <li>Dia 2: Maximum Speed 21/06 </li>
+    <li>Dia 2: Maximum Speed 21/06 ✔️</li>
     <li>Dia 3: In Orbit 22/06 </li>
     <li>Dia 4: Landing 23/06 </li>
     <li>Dia 5: Surface Exploration 24/06 </li>
-    <li>Dia 6: O Próximo Nível 25/06 </li>
 </ul>
 
 <h2>💻 Projeto - NLW Valoriza</h2>
