@@ -26,5 +26,3 @@
 <h2>💻 Projeto</h2>
 
 <p>NLW Valozira, é uma API desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
-=======
->>>>>>> c5e1ff82669a92f981dd98174a7fc603c51363d3
