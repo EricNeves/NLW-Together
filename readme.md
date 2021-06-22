@@ -1,5 +1,8 @@
-<h1 align="center">NextLevelWeek 6.0 - <img src="./github/logo.svg" alt="Logo">
-</h1>
+<h1 align="center">NextLevelWeek 6.0</h1>
+<div align="center">
+    <img src="./github/nlw.svg" alt="Logo">
+    <img src="./github/rocketseat.svg" alt="Logo">
+</div><br />
 
 <p align="center">	
 <img src="https://img.shields.io/badge/made%20by-Eric%20Neves-%2304D361" alt="Badge">
