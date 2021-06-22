@@ -21,7 +21,6 @@
     <li>Dia 5: Surface Exploration 24/06 </li>
     <li>Dia 6: O Próximo Nível 25/06 </li>
 </ul>
-<<<<<<< HEAD
 
 <h2>💻 Projeto</h2>
 
