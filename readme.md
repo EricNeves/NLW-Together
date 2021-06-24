@@ -59,6 +59,9 @@ $ git clone git@github.com:EricNeves/NLW-Together.git
 # Install Dependencies 
 $ cd NLW-Together && yarn install
 
+# Rename File ".env.example"
+$ mv .env.example .env
+
 # Execute
 $ yarn dev
 
