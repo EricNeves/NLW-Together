@@ -71,7 +71,7 @@ $ yarn dev
 
 <h2>🔥 Como Utilizar</h2>
 
-<p>Abaixo é exibido a forma de utilização da API, </p>
+<p>Abaixo é exibido a forma de utilização da API. </p>
 
 | Route            |          Values              |                   Description                    |
 | ---------------- |  --------------------------- | ------------------------------------------------ |
