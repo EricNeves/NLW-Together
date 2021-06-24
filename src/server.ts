@@ -1,5 +1,5 @@
-import 'reflect-metadata'
 import express, { Request, Response, NextFunction } from 'express'
+import 'reflect-metadata'
 import 'express-async-errors'
 import { router } from './routes'
 import { config } from './config/host'
