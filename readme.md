@@ -70,7 +70,7 @@ $ yarn dev
 <h2>👾 Autor</h2>
 
 <img style="border-radius: 50%; max-width:100%;" src="./github/autor.jpg" width="100px;"/>
-<h3><sub><b>Eric Neves</b></sub></h3>
+<h3><b>Eric Neves</b></h3>
 <a href="https://www.linkedin.com/in/ericnevesrr/">
     <img src="./github/linkedin.png" />
 </a>
