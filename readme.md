@@ -73,12 +73,13 @@ $ yarn dev
 
 <p>Abaixo é exibido a forma de utilização da API. </p>
 
-| Route            |          Values              |                   Description                    |
-| ---------------- |  --------------------------- | ------------------------------------------------ |
-| /users           | {name, email, password} | Rota responsável por adicionar um novo usuário. |
-| /tags            | {name} | Rota responsável por adicionar uma nova tag.     |
-| /compliments     | {tag_id, user_sender: id, user_receiver: id, message} | Rota responsável por adicionar um elogio. |
-| /session         |                              |                                                  |
+| Route            |     Method    |          Values                                           |                   Description                   |
+| ---------------- |  ------------ | --------------------------------------------------------- | ----------------------------------------------- |
+| /users           |     POST      | {name, email, password}                                   | Rota responsável por adicionar um novo usuário. |
+| /tags            |     POST      | {name}                                                    | Rota responsável por adicionar uma nova tag.    |
+| /compliments     |     POST      | {tag_id, user_sender: id, user_receiver: id, message}     | Rota responsável por adicionar um elogio.       |
+| /session         |     POST      |                                                           |                                                 |
+
 Restante em andamento..
 
 <h2>👾 Autor</h2>
