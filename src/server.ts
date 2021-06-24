@@ -2,6 +2,7 @@ import 'reflect-metadata'
 import express, { Request, Response, NextFunction } from 'express'
 import 'express-async-errors'
 import { router } from './routes'
+import { config } from './config/host'
 
 import './database'
 
@@ -21,6 +22,6 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     })
 })
 
-app.listen(3000, () => 
-    console.log('Server running on PORT 3000')
+app.listen(config.PORT, () => 
+    console.log(`Server running on ${config.HOST}:${config.PORT}`)
 )
