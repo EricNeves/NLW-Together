@@ -73,7 +73,6 @@ $ yarn dev
 <br />
 <sub><b>Eric Neves</b></sub>
 <br />
-
 <a href="https://www.linkedin.com/in/ericnevesrr/">
     <img src="./github/linkedin.png" />
 </a>
