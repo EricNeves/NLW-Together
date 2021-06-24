@@ -67,6 +67,10 @@ $ yarn dev
 
 ```
 
+<h2>🔥 Como Utilizar</h2>
+
+<p>Em andamento..</p>
+
 <h2>👾 Autor</h2>
 
 <img style="border-radius: 50%; max-width:100%;" src="./github/autor.jpg" width="100px;"/>
