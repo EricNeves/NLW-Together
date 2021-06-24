@@ -33,3 +33,33 @@
 <h2>💻 Projeto - NLW Valoriza</h2>
 
 <p>NLW Valozira, é uma API desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
+
+<h2>⛏️ Tecnologias</h2>
+
+<ul>
+    <li>Node JS</li>
+    <li>Typescript</li>
+    <li>Express</li>
+    <li>express-async-errors</li>
+    <li>reflect-metadata</li>
+    <li>Typeorm</li>
+    <li>Sqlite3</li>
+    <li>bcryptjs</li>
+    <li>JWT</li>
+    <li>uuid</li>
+    <li>dotenv</li>
+</ul>
+
+<h2>💻 Como Executar</h2>
+
+```bash
+# Clone
+$ git clone git@github.com:EricNeves/NLW-Together.git
+
+# Install Dependencies 
+$ cd NLW-Together && yarn install
+
+# Execute
+$ yarn dev
+
+```
