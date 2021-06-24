@@ -20,6 +20,8 @@
 
 <p>A NLW ou Next Level Week, é um evento online, totalmente gratuito, oferecido pela Rocketseat, que consiste, em uma semana com muito conteúdo prático, cheios de desafios e com um projeto que nos ajudará a avançar e atingir o próximo nível.</p>
 
+<a href="https://rocketseat.com.br/">Rocketseat 🚀</a>
+
 <h2>🌍 Dias</h2>
 
 <ul>
@@ -69,7 +71,9 @@ $ yarn dev
 
 <h2>🔥 Como Utilizar</h2>
 
-<p>Em andamento..</p>
+| Router      |          Values           |                   Description                   |
+| ----------- |  -----------------------  | ----------------------------------------------  |
+| /users      |  {name, email, password}  | Rota responsável por adicionar um novo usuário. |
 
 <h2>👾 Autor</h2>
 
