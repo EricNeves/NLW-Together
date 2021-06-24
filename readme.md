@@ -71,9 +71,13 @@ $ yarn dev
 
 <h2>🔥 Como Utilizar</h2>
 
-| Router      |          Values           |                   Description                   |
-| ----------- |  -----------------------  | ----------------------------------------------  |
-| /users      |  {name, email, password}  | Rota responsável por adicionar um novo usuário. |
+<p>Abaixo é exibido a forma de utilização da API, </p>
+
+| Router      |          Values           |                   Description                         |
+| ----------- |  -----------------------  | ----------------------------------------------------- |
+| /users      |  {name, email, password}  | Rota responsável por adicionar um novo usuário.       |
+| /tags       |  {name}                   | Rota responsável por adicionar uma nova tag.          |
+Em andamento...
 
 <h2>👾 Autor</h2>
 
