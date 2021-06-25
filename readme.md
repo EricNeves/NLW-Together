@@ -151,12 +151,26 @@ fetch('http://localhost:3000/tags', {
 * @Route("http://host:port/users, method={"GET"}")
 */
 fetch(url, {
-        method: 'GET',
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'GET',
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
+```
+
+```js
+/*
+* List User By ID
+* @Route("http://host:port/users/{ ID }, method={"GET"}")
+*/
+fetch("http://host:port/users/{ ID }", {
+    method: 'GET',
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
@@ -165,31 +179,31 @@ fetch(url, {
 * @Route("http://host:port/compliment, method={"POST"}")
 */
 fetch(url, {
-        method: 'POST',
-        body: JSON.stringify({
-            tag_id: "{tag_id}",
-            user_receiver: "{receiver_user_id}",
-            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'POST',
+    body: JSON.stringify({
+        tag_id: "{tag_id}",
+        user_receiver: "{receiver_user_id}",
+        message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
 /*
-* List of compliments sent 
+* List of compliments sent by user
 * @Route("http://host:port/users/compliments/send, method={"GET"}")
 */
 fetch(url, {
-        method: 'GET',
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'GET',
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
@@ -198,12 +212,12 @@ fetch(url, {
 * @Route("http://host:port/users/compliments/receive, method={"GET"}")
 */
 fetch(url, {
-        method: 'GET',
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'GET',
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
@@ -212,15 +226,15 @@ fetch(url, {
 * @Route("http://host:port/tag, method={"DELETE"}")
 */
 fetch(url, {
-        method: 'DELETE',
-        body: JSON.stringify({
-            tag_id: "{tag_id}",
-        }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'DELETE',
+    body: JSON.stringify({
+        tag_id: "{tag_id}",
+    }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
@@ -229,16 +243,16 @@ fetch(url, {
 * @Route("http://host:port/tag, method={"PUT"}")
 */
 fetch(url, {
-        method: 'PUT',
-        body: JSON.stringify({
-            tag_id: "{tag_id}",
-            tag_name: "Inspiration"
-        }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'PUT',
+    body: JSON.stringify({
+        tag_id: "{tag_id}",
+        tag_name: "Inspiration"
+    }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
@@ -247,15 +261,15 @@ fetch(url, {
 * @Route("http://host:port/compliment, method={"DELETE"}")
 */
 fetch(url, {
-        method: 'DELETE',
-        body: JSON.stringify({
-            id_compliment: "{id_compliment}"
-        }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'DELETE',
+    body: JSON.stringify({
+        id_compliment: "{id_compliment}"
+    }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 ```js
@@ -264,16 +278,16 @@ fetch(url, {
 * @Route("http://host:port/compliment, method={"PUT"}")
 */
 fetch(url, {
-        method: 'PUT',
-        body: JSON.stringify({
-            id_compliment: "{id_compliment}",
-            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization" : "Baerer {token}"
-        }
-    })
+    method: 'PUT',
+    body: JSON.stringify({
+        id_compliment: "{id_compliment}",
+        message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
 ```
 
 

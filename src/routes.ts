@@ -10,6 +10,7 @@ import { ListUserSendComplimentsController } from './controllers/ListUserSendCom
 import { ListUserReceiveComplimentsController } from './controllers/ListUserReceiveComplimentsController'
 import { ListTagsController } from './controllers/ListTagsController'
 import { ListUsersController } from './controllers/ListUsersController'
+import { ListUserByIdController } from './controllers/ListUserByIdController'
 
 import { UpdateTagController } from './controllers/UpdateTagController'
 import { UpdateSendComplimentByUserController } from './controllers/UpdadeSendComplimentByUserController'
@@ -33,6 +34,8 @@ const listUserSendComplimentsController = new ListUserSendComplimentsController(
 const listUserReceiveComplimentsController = new ListUserReceiveComplimentsController()
 const listTagsController = new ListTagsController()
 const listUsersController = new ListUsersController()
+const listUserByIdController = new ListUserByIdController()
+
 
 const deleteTagController = new DeleteTagController()
 const deleteSendComplimentController = new DeleteSendComplimentController()
@@ -50,6 +53,8 @@ router.get('/users/compliments/send', ensureAuthenticated, listUserSendComplimen
 router.get('/users/compliments/receive', ensureAuthenticated, listUserReceiveComplimentsController.handle)
 router.get('/tags', ensureAuthenticated, listTagsController.handle)
 router.get('/users', ensureAuthenticated, listUsersController.handle)
+router.get('/users/:id', ensureAuthenticated, listUserByIdController.handle)
+
 
 router.delete('/tag', ensureAuthenticated, ensureAdmin, deleteTagController.handle)
 router.delete('/compliment', ensureAuthenticated, deleteSendComplimentController.handle)
