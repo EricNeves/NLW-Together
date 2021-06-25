@@ -78,10 +78,13 @@ $ yarn dev
 | Route            |     Method    |          Values                                  |                   Description                   |
 | ---------------- |  ------------ | ------------------------------------------------ | ----------------------------------------------- |
 | /users           |     POST      | {name, email, password}                          | Rota responsável por adicionar um novo usuário. |
-| /tags            |     POST      | {name}                                           | Rota responsável por adicionar uma nova tag.    |
+| /tags            |     POST      | {name}, authorization token                                        | Rota responsável por adicionar uma nova tag.    |
 | /compliments     |     POST      | {tag_id, user_sender, user_receiver, message}    | Rota responsável por adicionar um elogio.       |
 | /session         |     POST      |                                                  |                                                 |
-
+| /users/compliments/send    |     GET   
+| /users/compliments/receive |     GET
+| /tags |    GET
+| /users|    GET
 Restante em andamento..
 
 <h2>👾 Autor</h2>
