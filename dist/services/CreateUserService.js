@@ -40,6 +40,7 @@ exports.CreateUserService = void 0;
 var typeorm_1 = require("typeorm");
 var UsersRepositories_1 = require("../repositories/UsersRepositories");
 var bcryptjs_1 = require("bcryptjs");
+var class_transformer_1 = require("class-transformer");
 var CreateUserService = /** @class */ (function () {
     function CreateUserService() {
     }
@@ -72,7 +73,7 @@ var CreateUserService = /** @class */ (function () {
                         return [4 /*yield*/, usersRepository.save(user)];
                     case 3:
                         _c.sent();
-                        return [2 /*return*/, user];
+                        return [2 /*return*/, class_transformer_1.classToPlain(user)];
                 }
             });
         });

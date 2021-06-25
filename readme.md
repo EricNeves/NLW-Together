@@ -80,9 +80,20 @@ $ yarn dev
 
 ```js
 /*
+* Add a new User
 * @Route("http://host:port/users, method={"POST"}")
 */
-
+fetch(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      name: "Eric",
+      email: "ericnevesr@gmail.com",
+      password: "admin"
+		}),
+    headers: {
+    	"Content-type": "application/json; charset=UTF-8"
+    }
+})
 ```
 
 <h2>👾 Autor</h2>
