@@ -66,7 +66,7 @@ $ cd NLW-Together && yarn install
 # Rename file ".env.example" to ".env"
 $ mv .env.example .env
 
-# Copie e cole o código abaixo no arquivo **ormconfig.json**
+# Copie e cole o código abaixo no arquivo ormconfig.json
 {
     "type": "sqlite",
     "database": "src/database/database.sqlite",
