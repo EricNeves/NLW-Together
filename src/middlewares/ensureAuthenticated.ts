@@ -10,7 +10,9 @@ export function ensureAuthenticated(request: Request, response: Response, next: 
     const authToken = request.headers.authorization
 
     if(!authToken)
-        return response.status(401).end()
+        return response.status(401).json({
+            msg: "Unauthorized"
+        })
 
     const [,token] = authToken.split(' ')
 
@@ -19,6 +21,8 @@ export function ensureAuthenticated(request: Request, response: Response, next: 
         request.user_id = sub
         return next()
     }catch(err){
-        response.status(401).end()
+        return response.status(401).json({
+            error: err
+        })
     }
 }

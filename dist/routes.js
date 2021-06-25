@@ -11,10 +11,10 @@ var ListUserSendComplimentsController_1 = require("./controllers/ListUserSendCom
 var ListUserReceiveComplimentsController_1 = require("./controllers/ListUserReceiveComplimentsController");
 var ListTagsController_1 = require("./controllers/ListTagsController");
 var ListUsersController_1 = require("./controllers/ListUsersController");
-var DeleteTagController_1 = require("./controllers/DeleteTagController");
 var UpdateTagController_1 = require("./controllers/UpdateTagController");
-var DeleteSendComplimentController_1 = require("./controllers/DeleteSendComplimentController");
 var UpdadeSendComplimentByUserController_1 = require("./controllers/UpdadeSendComplimentByUserController");
+var DeleteTagController_1 = require("./controllers/DeleteTagController");
+var DeleteSendComplimentController_1 = require("./controllers/DeleteSendComplimentController");
 var ensureAdmin_1 = require("./middlewares/ensureAdmin");
 var ensureAuthenticated_1 = require("./middlewares/ensureAuthenticated");
 var router = express_1.Router();
@@ -29,8 +29,8 @@ var listUserReceiveComplimentsController = new ListUserReceiveComplimentsControl
 var listTagsController = new ListTagsController_1.ListTagsController();
 var listUsersController = new ListUsersController_1.ListUsersController();
 var deleteTagController = new DeleteTagController_1.DeleteTagController();
-var updateTagController = new UpdateTagController_1.UpdateTagController();
 var deleteSendComplimentController = new DeleteSendComplimentController_1.DeleteSendComplimentController();
+var updateTagController = new UpdateTagController_1.UpdateTagController();
 var updateSendComplimentByUserController = new UpdadeSendComplimentByUserController_1.UpdateSendComplimentByUserController();
 router.post('/users', createUserController.handle);
 router.post('/tags', ensureAuthenticated_1.ensureAuthenticated, ensureAdmin_1.ensureAdmin, createTagController.handle);

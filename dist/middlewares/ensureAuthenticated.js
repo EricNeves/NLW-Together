@@ -6,7 +6,9 @@ var jsonwebtoken_1 = require("jsonwebtoken");
 function ensureAuthenticated(request, response, next) {
     var authToken = request.headers.authorization;
     if (!authToken)
-        return response.status(401).end();
+        return response.status(401).json({
+            msg: "Unauthorized"
+        });
     var _a = authToken.split(' '), token = _a[1];
     try {
         var sub = jsonwebtoken_1.verify(token, settings_1.config.SECRET).sub;
@@ -14,7 +16,9 @@ function ensureAuthenticated(request, response, next) {
         return next();
     }
     catch (err) {
-        response.status(401).end();
+        return response.status(401).json({
+            error: err
+        });
     }
 }
 exports.ensureAuthenticated = ensureAuthenticated;
