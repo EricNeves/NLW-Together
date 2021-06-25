@@ -66,12 +66,12 @@ $ cd NLW-Together && yarn install
 # Rename file ".env.example" to ".env"
 $ mv .env.example .env
 
-# Copie e cole o código abaixo no arquivo ormconfig.json
+# Crie um arquivo ormconfig.json e adicione o código abaixo.
 {
     "type": "sqlite",
     "database": "src/database/database.sqlite",
-    "migrations": ["dist/database/migrations/*.js"],
-    "entities": ["dist/entities/*.js"],
+    "migrations": ["src/database/migrations/*.ts"],
+    "entities": ["src/entities/*.ts"],
     "cli": {
         "migrationsDir": "src/database/migrations",
         "entitiesDir": "src/entities"
