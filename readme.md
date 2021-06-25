@@ -258,6 +258,24 @@ fetch(url, {
     })
 ```
 
+```js
+/*
+* Update compliment sent by user
+* @Route("http://host:port/compliment, method={"PUT"}")
+*/
+fetch(url, {
+        method: 'PUT',
+        body: JSON.stringify({
+            id_compliment: "{id_compliment}",
+            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
+
 
 <h2>👾 Autor</h2>
 
