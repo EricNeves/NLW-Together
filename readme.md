@@ -66,6 +66,18 @@ $ cd NLW-Together && yarn install
 # Rename file ".env.example" to ".env"
 $ mv .env.example .env
 
+# Copie e cole o código abaixo no arquivo **ormconfig.json**
+{
+    "type": "sqlite",
+    "database": "src/database/database.sqlite",
+    "migrations": ["dist/database/migrations/*.js"],
+    "entities": ["dist/entities/*.js"],
+    "cli": {
+        "migrationsDir": "src/database/migrations",
+        "entitiesDir": "src/entities"
+    }
+}
+
 # Create tables
 $ yarn typeorm migration:run
 
