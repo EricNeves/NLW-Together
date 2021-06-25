@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev ./src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
-    "start": "ts-node-dev ./src/server.ts"
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
