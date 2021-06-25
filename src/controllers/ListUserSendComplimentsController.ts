@@ -8,7 +8,7 @@ class ListUserSendComplimentsController {
         const { user_id } = request
 
         const compliments = await listUserSendComplimentsService.execute(user_id)
-
+        
         return response.json(compliments)
     }
 }

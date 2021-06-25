@@ -136,13 +136,27 @@ fetch(url, {
 fetch('http://localhost:3000/tags', {
     method: 'POST',
     body: JSON.stringify({
-    name: "Inspiration"
+        name: "Inspiration"
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
         "Authorization" : "Baerer {token}"
     }
 })
+```
+
+```js
+/*
+* List Users
+* @Route("http://host:port/users, method={"GET"}")
+*/
+fetch(url, {
+        method: 'GET',
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
 ```
 
 ```js
@@ -166,15 +180,41 @@ fetch(url, {
 
 ```js
 /*
-* List of compliments sent
+* List of compliments sent 
 * @Route("http://host:port/users/compliments/send, method={"GET"}")
 */
 fetch(url, {
         method: 'GET',
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
+
+```js
+/*
+* List of compliments received 
+* @Route("http://host:port/users/compliments/receive, method={"GET"}")
+*/
+fetch(url, {
+        method: 'GET',
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
+
+```js
+/*
+* Delete tag if you are an administrator
+* @Route("http://host:port/tag, method={"DELETE"}")
+*/
+fetch(url, {
+        method: 'DELETE',
         body: JSON.stringify({
             tag_id: "{tag_id}",
-            user_receiver: "{receiver_user_id}",
-            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         }),
         headers: {
             "Content-type": "application/json; charset=UTF-8",
@@ -183,6 +223,40 @@ fetch(url, {
     })
 ```
 
+```js
+/*
+* Update tag if you are an administrator
+* @Route("http://host:port/tag, method={"PUT"}")
+*/
+fetch(url, {
+        method: 'PUT',
+        body: JSON.stringify({
+            tag_id: "{tag_id}",
+            tag_name: "Inspiration"
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
+
+```js
+/*
+* Delete compliment sent by user
+* @Route("http://host:port/compliment, method={"DELETE"}")
+*/
+fetch(url, {
+        method: 'DELETE',
+        body: JSON.stringify({
+            id_compliment: "{id_compliment}"
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
 
 
 <h2>👾 Autor</h2>

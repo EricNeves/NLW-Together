@@ -9,7 +9,7 @@ class DeleteSendComplimentsService {
         const complimentExists = await complimentsRepositories.findOne(id_compliment)
 
         if ( !complimentExists )
-            throw new Error("Compliment does not exists")
+            throw new Error("Error - Check token or compliment ID")
 
         const compliment = await complimentsRepositories.delete(id_compliment)
 

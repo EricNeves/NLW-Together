@@ -52,7 +52,7 @@ router.get('/tags', ensureAuthenticated, listTagsController.handle)
 router.get('/users', ensureAuthenticated, listUsersController.handle)
 
 router.delete('/tag', ensureAuthenticated, ensureAdmin, deleteTagController.handle)
-router.delete('/compliments', ensureAuthenticated, deleteSendComplimentController.handle)
+router.delete('/compliment', ensureAuthenticated, deleteSendComplimentController.handle)
 
 router.put('/tag', ensureAuthenticated, ensureAdmin, updateTagController.handle)
 router.put('/compliment', ensureAuthenticated, updateSendComplimentByUserController.handle)

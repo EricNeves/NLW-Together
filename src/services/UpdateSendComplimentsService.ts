@@ -19,7 +19,7 @@ class UpdateSendComplimentsService {
         })
         
         if ( !complimentExists )
-            throw new Error("Compliment does not exists")
+            throw new Error("Error - Check token or compliment ID")
         
         const compliment = await complimentsRepositories.update(id_compliment, {
             message: message
