@@ -3,6 +3,7 @@ import { compare } from 'bcryptjs'
 import { sign } from 'jsonwebtoken'
 
 import { UsersRepositories } from '../repositories/UsersRepositories'
+import { config } from '../config/settings'
 
 interface IAuthenticateRequest {
     email: string
@@ -26,7 +27,7 @@ class AuthenticateUserService {
         const token = sign({
             email: user.email,
         },
-            "7e429fd220ae12f0dd437e7716281e88",
+            config.SECRET,
             {
                 subject: user.id,
                 expiresIn: "1d"

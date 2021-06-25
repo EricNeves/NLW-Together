@@ -44,6 +44,7 @@
     <li>Express</li>
     <li>express-async-errors</li>
     <li>reflect-metadata</li>
+    <li>class-transformer</li>
     <li>Typeorm</li>
     <li>Sqlite3</li>
     <li>bcryptjs</li>
