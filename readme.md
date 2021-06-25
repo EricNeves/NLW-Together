@@ -42,10 +42,10 @@
     <li>Node JS</li>
     <li>Typescript</li>
     <li>Express</li>
+    <li>Typeorm</li>
     <li>express-async-errors</li>
     <li>reflect-metadata</li>
     <li>class-transformer</li>
-    <li>Typeorm</li>
     <li>Sqlite3</li>
     <li>bcryptjs</li>
     <li>JWT</li>
