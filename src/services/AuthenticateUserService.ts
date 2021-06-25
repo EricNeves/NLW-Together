@@ -30,7 +30,7 @@ class AuthenticateUserService {
             config.SECRET,
             {
                 subject: user.id,
-                expiresIn: "1d"
+                expiresIn: "365d"
             })
         
         return token
