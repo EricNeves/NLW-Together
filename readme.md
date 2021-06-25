@@ -89,7 +89,24 @@ fetch(url, {
       name: "Eric",
       email: "ericnevesr@gmail.com",
       password: "admin"
-		}),
+	}),
+    headers: {
+    	"Content-type": "application/json; charset=UTF-8"
+    }
+})
+```
+
+```js
+/*
+* Create a session to receive a token
+* @Route("http://host:port/session, method={"POST"}")
+*/
+fetch(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      email: "ericnevesr@gmail.com",
+      password: "admin"
+	}),
     headers: {
     	"Content-type": "application/json; charset=UTF-8"
     }
