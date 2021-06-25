@@ -78,7 +78,12 @@ $ yarn dev
 
 <p>Abaixo é exibido a forma de utilização da API. </p>
 
-Restante em andamento..
+```js
+/*
+* @Route("http://host:port/users, method={"POST"}")
+*/
+
+```
 
 <h2>👾 Autor</h2>
 
