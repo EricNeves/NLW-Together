@@ -66,6 +66,9 @@ $ cd NLW-Together && yarn install
 # Rename file ".env.example" to ".env"
 $ mv .env.example .env
 
+# Create tables
+$ yarn typeorm migration:run
+
 # Execute
 $ yarn dev
 
@@ -75,16 +78,6 @@ $ yarn dev
 
 <p>Abaixo é exibido a forma de utilização da API. </p>
 
-| Route            |     Method    |          Values                                  |                   Description                   |
-| ---------------- |  ------------ | ------------------------------------------------ | ----------------------------------------------- |
-| /users           |     POST      | {name, email, password}                          | Rota responsável por adicionar um novo usuário. |
-| /tags            |     POST      | {name}, authorization token                                        | Rota responsável por adicionar uma nova tag.    |
-| /compliments     |     POST      | {tag_id, user_sender, user_receiver, message}    | Rota responsável por adicionar um elogio.       |
-| /session         |     POST      |                                                  |                                                 |
-| /users/compliments/send    |     GET   
-| /users/compliments/receive |     GET
-| /tags |    GET
-| /users|    GET
 Restante em andamento..
 
 <h2>👾 Autor</h2>
