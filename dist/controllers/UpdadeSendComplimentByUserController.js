@@ -51,7 +51,7 @@ var UpdateSendComplimentByUserController = /** @class */ (function () {
                         _a = request.body, id_compliment = _a.id_compliment, message = _a.message;
                         user_id = request.user_id;
                         updateSendComplimentsService = new UpdateSendComplimentsService_1.UpdateSendComplimentsService();
-                        return [4 /*yield*/, updateSendComplimentsService.execute({ user_id: user_id, id_compliment: id_compliment, message: message })];
+                        return [4 /*yield*/, updateSendComplimentsService.execute(user_id, id_compliment, message)];
                     case 1:
                         _b.sent();
                         return [2 /*return*/, response.status(200).json({ msg: "Successfully" })];

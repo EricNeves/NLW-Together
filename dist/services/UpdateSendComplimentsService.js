@@ -42,29 +42,27 @@ var ComplimentsRepositories_1 = require("../repositories/ComplimentsRepositories
 var UpdateSendComplimentsService = /** @class */ (function () {
     function UpdateSendComplimentsService() {
     }
-    UpdateSendComplimentsService.prototype.execute = function (_a) {
-        var user_id = _a.user_id, id_compliment = _a.id_compliment, message = _a.message;
+    UpdateSendComplimentsService.prototype.execute = function (user_id, id_compliment, message) {
         return __awaiter(this, void 0, void 0, function () {
             var complimentsRepositories, complimentExists, compliment;
-            return __generator(this, function (_b) {
-                switch (_b.label) {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
                     case 0:
                         complimentsRepositories = typeorm_1.getCustomRepository(ComplimentsRepositories_1.ComplimentsRepositories);
                         return [4 /*yield*/, complimentsRepositories.findOne({
                                 where: {
-                                    user_sender: user_id,
-                                    id: id_compliment
+                                    user_sender: user_id
                                 }
                             })];
                     case 1:
-                        complimentExists = _b.sent();
+                        complimentExists = _a.sent();
                         if (!complimentExists)
                             throw new Error("Error - Check token or compliment ID");
                         return [4 /*yield*/, complimentsRepositories.update(id_compliment, {
                                 message: message
                             })];
                     case 2:
-                        compliment = _b.sent();
+                        compliment = _a.sent();
                         return [2 /*return*/, compliment];
                 }
             });

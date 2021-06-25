@@ -9,7 +9,7 @@ class UpdateSendComplimentByUserController {
 
             const updateSendComplimentsService = new UpdateSendComplimentsService()
 
-            await updateSendComplimentsService.execute({user_id, id_compliment, message})
+            await updateSendComplimentsService.execute(user_id, id_compliment, message)
 
             return response.status(200).json({msg: "Successfully"})
         }catch(err){
