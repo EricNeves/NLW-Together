@@ -66,7 +66,7 @@ $ cd NLW-Together && yarn install
 # Rename file ".env.example" to ".env"
 $ mv .env.example .env
 
-# Mude todo o conteúdo de ormconfig.json para o techo de código abaixo.
+# Mude todo o conteúdo de ormconfig.json utilizando o techo de código abaixo.
 {
     "type": "sqlite",
     "database": "src/database/database.sqlite",
