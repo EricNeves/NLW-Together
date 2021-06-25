@@ -50,6 +50,7 @@
     <li>bcryptjs</li>
     <li>JWT</li>
     <li>uuid</li>
+    <li>cors</li>
     <li>dotenv</li>
 </ul>
 
