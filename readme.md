@@ -29,7 +29,7 @@
     <li>Dia 2: Maximum Speed 21/06 ✔️</li>
     <li>Dia 3: In Orbit 22/06 ✔️</li>
     <li>Dia 4: Landing 23/06 ✔️</li>
-    <li>Dia 5: Surface Exploration 24/06 </li>
+    <li>Dia 5: Surface Exploration 24/06 ✔️</li>
 </ul>
 
 <h2>💻 Projeto - NLW Valoriza</h2>
@@ -86,7 +86,7 @@ Restante em andamento..
 
 <h2>👾 Autor</h2>
 
-<img style="border-radius: 50%; max-width:100%;" src="./github/autor.jpg" width="100px;"/>
+<img src="./github/autor.jpg" width="100px;"/>
 <h3><b>Eric Neves</b></h3>
 <a href="https://www.linkedin.com/in/ericnevesrr/">
     <img src="./github/linkedin.png" />
