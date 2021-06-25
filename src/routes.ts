@@ -43,7 +43,7 @@ const updateSendComplimentByUserController = new UpdateSendComplimentByUserContr
 router.post('/users', createUserController.handle)
 router.post('/tags', ensureAuthenticated, ensureAdmin, createTagController.handle)
 router.post('/session', authenticateUserController.handle)
-router.post('/compliments', ensureAuthenticated, createComplimentController.handle)
+router.post('/compliment', ensureAuthenticated, createComplimentController.handle)
 
 router.get('/', homeController.handle)
 router.get('/users/compliments/send', ensureAuthenticated, listUserSendComplimentsController.handle)

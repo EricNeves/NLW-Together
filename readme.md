@@ -88,7 +88,8 @@ fetch(url, {
     body: JSON.stringify({
       name: "Eric",
       email: "ericnevesr@gmail.com",
-      password: "admin"
+      password: "admin",
+      admin: true // true or false
 	}),
     headers: {
     	"Content-type": "application/json; charset=UTF-8"
@@ -112,6 +113,77 @@ fetch(url, {
     }
 })
 ```
+
+```js
+/*
+* List Tags
+* @Route("http://host:port/tags, method={"GET"}")
+*/
+fetch(url, {
+    method: 'GET',
+    headers: {
+        "Content-type" : "application/json",
+        "Authorization" : "Bearer {token}"
+    }
+})
+```
+
+```js
+/*
+* Add a new tag if you are an administrator
+* @Route("http://host:port/tags, method={"POST"}")
+*/
+fetch('http://localhost:3000/tags', {
+    method: 'POST',
+    body: JSON.stringify({
+    name: "Inspiration"
+    }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization" : "Baerer {token}"
+    }
+})
+```
+
+```js
+/*
+* Add a new compliment
+* @Route("http://host:port/compliment, method={"POST"}")
+*/
+fetch(url, {
+        method: 'POST',
+        body: JSON.stringify({
+            tag_id: "{tag_id}",
+            user_receiver: "{receiver_user_id}",
+            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
+
+```js
+/*
+* List of compliments sent
+* @Route("http://host:port/users/compliments/send, method={"GET"}")
+*/
+fetch(url, {
+        method: 'GET',
+        body: JSON.stringify({
+            tag_id: "{tag_id}",
+            user_receiver: "{receiver_user_id}",
+            message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }),
+        headers: {
+            "Content-type": "application/json; charset=UTF-8",
+            "Authorization" : "Baerer {token}"
+        }
+    })
+```
+
+
 
 <h2>👾 Autor</h2>
 
