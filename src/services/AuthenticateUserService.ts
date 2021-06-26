@@ -27,7 +27,7 @@ class AuthenticateUserService {
         const token = sign({
             email: user.email,
         },
-            config.SECRET,
+            "6fa18a0ac995377c6582912a7524018c",
             {
                 subject: user.id,
                 expiresIn: "365d"
