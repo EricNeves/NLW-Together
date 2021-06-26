@@ -34,7 +34,7 @@
 
 <h2>💻 Projeto - NLW Valoriza</h2>
 
-<p>NLW Valozira, é uma API desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
+<p>NLW Valozira, é uma <a href="https://togethernlw.herokuapp.com/">API</a> desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
 
 <h2>⛏️ Tecnologias</h2>
 
@@ -88,7 +88,9 @@ $ yarn dev
 
 <h2>🔥 Como Utilizar</h2>
 
-<p>Abaixo é exibido a forma de utilização da API. </p>
+<p>Abaixo é exibido a forma de utilização da API.</p>
+
+<p>API: <a href="https://togethernlw.herokuapp.com/">https://togethernlw.herokuapp.com/</a></p>
 
 ```js
 /*
