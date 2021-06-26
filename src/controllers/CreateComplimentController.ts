@@ -17,7 +17,7 @@ class CreateComplimentController {
 
             return response.json(compliment)
         }catch(err){
-            response.status(400).json({error: err.message})
+            response.status(400).json({error: "Error - Check the body and token"})
         }
     }
 }
