@@ -41,7 +41,6 @@ var typeorm_1 = require("typeorm");
 var bcryptjs_1 = require("bcryptjs");
 var jsonwebtoken_1 = require("jsonwebtoken");
 var UsersRepositories_1 = require("../repositories/UsersRepositories");
-var settings_1 = require("../config/settings");
 var AuthenticateUserService = /** @class */ (function () {
     function AuthenticateUserService() {
     }
@@ -65,7 +64,7 @@ var AuthenticateUserService = /** @class */ (function () {
                             throw new Error('Email/Password incorrect');
                         token = jsonwebtoken_1.sign({
                             email: user.email,
-                        }, settings_1.config.SECRET, {
+                        }, "6fa18a0ac995377c6582912a7524018c", {
                             subject: user.id,
                             expiresIn: "365d"
                         });
