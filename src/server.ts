@@ -3,12 +3,11 @@ import 'reflect-metadata'
 import 'express-async-errors'
 import { router } from './routes'
 import cors from 'cors'
-import * as dotenv from "dotenv"
-dotenv.config()
-
 import './database'
 
 const app = express()
+
+const PORT = process.env.PORT || 3000
 
 app.use(cors())
 app.use(express.json())
@@ -25,6 +24,6 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     })
 })
 
-app.listen(process.env.PORT, () => 
-    console.log(`Server running on ${process.env.PORT}`)
+app.listen(PORT, () => 
+    console.log(`Server running on ${PORT}`)
 )
