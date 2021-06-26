@@ -87,7 +87,7 @@ $ yarn dev
 
 <p>Abaixo é exibido a forma de utilização da API.</p>
 
-<p>API: <a href="https://togethernlw.herokuapp.com/">https://togethernlw.herokuapp.com/</a></p>
+<p>API: <a href="https://togethernlw.herokuapp.com/">https://togethernlw.herokuapp.com/</a>, utilize o site https://reqbin.com/ para possíveis testes.</p>
 
 ```js
 /*
