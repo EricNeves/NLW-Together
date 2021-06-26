@@ -91,6 +91,19 @@ $ yarn dev
 
 ```js
 /*
+* Home
+* @Route("http://host:port/, method={"GET"}")
+*/
+fetch(url, {
+    method: 'GET',
+    headers: {
+        "Content-type" : "application/json"
+    }
+})
+```
+
+```js
+/*
 * Add a new User
 * @Route("http://host:port/users, method={"POST"}")
 */
