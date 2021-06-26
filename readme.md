@@ -78,9 +78,6 @@ $ mv .env.example .env
     }
 }
 
-# Create tables
-$ yarn typeorm migration:run
-
 # Execute
 $ yarn dev
 
