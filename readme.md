@@ -144,7 +144,7 @@ fetch(url, {
 * Add a new tag if you are an administrator
 * @Route("http://host:port/tags, method={"POST"}")
 */
-fetch('http://localhost:3000/tags', {
+fetch(url, {
     method: 'POST',
     body: JSON.stringify({
         name: "Inspiration"
@@ -175,7 +175,7 @@ fetch(url, {
 * List User By ID
 * @Route("http://host:port/users/{ ID }, method={"GET"}")
 */
-fetch("http://host:port/users/{ ID }", {
+fetch(url, {
     method: 'GET',
     headers: {
         "Content-type": "application/json; charset=UTF-8",
