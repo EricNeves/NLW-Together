@@ -12,7 +12,7 @@ class ListTagByIdService {
         if(!tag)
             throw new Error("Error - Check Token or Tag ID")
         
-        return user
+        return tag
     }
 }
 
