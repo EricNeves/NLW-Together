@@ -3,7 +3,6 @@ import { compare } from 'bcryptjs'
 import { sign } from 'jsonwebtoken'
 
 import { UsersRepositories } from '../repositories/UsersRepositories'
-import { config } from '../config/settings'
 
 interface IAuthenticateRequest {
     email: string

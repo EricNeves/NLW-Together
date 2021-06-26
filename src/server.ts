@@ -2,8 +2,9 @@ import express, { Request, Response, NextFunction } from 'express'
 import 'reflect-metadata'
 import 'express-async-errors'
 import { router } from './routes'
-import { config } from './config/settings'
 import cors from 'cors'
+import * as dotenv from "dotenv"
+dotenv.config()
 
 import './database'
 
@@ -24,6 +25,6 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     })
 })
 
-app.listen(config.PORT, () => 
-    console.log(`Server running on ${config.HOST}:${config.PORT}`)
+app.listen(process.env.PORT, () => 
+    console.log(`Server running on ${process.env.PORT}`)
 )
