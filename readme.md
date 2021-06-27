@@ -83,7 +83,7 @@ $ yarn dev
 
 ```
 
-<h2>Client Side</h2>
+<h2>💻 Client Side</h2>
 <p>NLW Together Client, um simples projeto web, para consumir alguns dados da API, o projeto inclui autenticação e listagem de dados.</p>
 <p>Repository: https://github.com/EricNeves/NLWTogetherClient</p>
 <p>Website: https://nlwtogetherclient.herokuapp.com/</p>
