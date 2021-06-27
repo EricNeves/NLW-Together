@@ -83,6 +83,11 @@ $ yarn dev
 
 ```
 
+<h2>Client Side</h2>
+<p>NLW Together Client, um simples projeto web, para consumir alguns dados da API, o projeto inclui login e listagem de dados.</p>
+<p>Repository: https://github.com/EricNeves/NLWTogetherClient</p>
+<p>Website: https://nlwtogetherclient.herokuapp.com/</p>
+
 <h2>🔥 Como Utilizar</h2>
 
 <p>Abaixo é exibido a forma de utilização da API.</p>
@@ -142,6 +147,20 @@ fetch(url, {
 /*
 * List Tags
 * @Route("http://host:port/tags, method={"GET"}")
+*/
+fetch(url, {
+    method: 'GET',
+    headers: {
+        "Content-type" : "application/json",
+        "Authorization" : "Bearer {token}"
+    }
+})
+```
+
+```js
+/*
+* List Tag By Id
+* @Route("http://host:port/tags/{ ID }, method={"GET"}")
 */
 fetch(url, {
     method: 'GET',
