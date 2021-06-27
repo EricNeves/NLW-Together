@@ -183,7 +183,7 @@ fetch(url, {
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -197,7 +197,7 @@ fetch(url, {
     method: 'GET',
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -211,7 +211,7 @@ fetch(url, {
     method: 'GET',
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -230,7 +230,7 @@ fetch(url, {
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -244,7 +244,7 @@ fetch(url, {
     method: 'GET',
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -258,7 +258,7 @@ fetch(url, {
     method: 'GET',
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -275,7 +275,7 @@ fetch(url, {
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -293,7 +293,7 @@ fetch(url, {
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -310,7 +310,7 @@ fetch(url, {
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
@@ -328,7 +328,7 @@ fetch(url, {
     }),
     headers: {
         "Content-type": "application/json; charset=UTF-8",
-        "Authorization" : "Baerer {token}"
+        "Authorization" : "Bearer {token}"
     }
 })
 ```
