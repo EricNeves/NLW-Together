@@ -57,13 +57,13 @@
 <h2>💻 Como Executar</h2>
 
 ```bash
-# Clone
+# Clonar
 $ git clone git@github.com:EricNeves/NLW-Together.git
 
-# Install Dependencies 
+# Instalar Dependências
 $ cd NLW-Together && yarn install
 
-# Rename file ".env.example" to ".env"
+# Renomeie o arquivo ".env.example" para ".env"
 $ mv .env.example .env
 
 # Mude todo o conteúdo de ormconfig.json pelo o trecho de código abaixo.
