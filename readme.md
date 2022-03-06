@@ -18,7 +18,7 @@
 
 <h2>🙇🏻‍♂️ O que é a Next Level Week?</h2>
 
-<p>A NLW ou Next Level Week, é um evento online, totalmente gratuito, oferecido pela Rocketseat, que consiste, em uma semana com muito conteúdo prático, cheios de desafios e com um projeto que nos ajudará a avançar e atingir o próximo nível.</p>
+<p>A NLW ou Next Level Week, é um evento online totalmente gratuito oferecido pela Rocketseat, que consiste em uma semana com muito conteúdo prático, cheios de desafios e com um projeto que nos ajudará a avançar e atingir o próximo nível.</p>
 
 <a href="https://rocketseat.com.br/">Rocketseat 🚀</a>
 
@@ -34,7 +34,7 @@
 
 <h2>💻 Projeto - NLW Valoriza</h2>
 
-<p>NLW Valozira, é uma <a href="https://togethernlw.herokuapp.com/">API</a> desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
+<p>NLW Valozira, uma <a href="https://togethernlw.herokuapp.com/">API</a> desenvolvida com NodeJS, com o objetivo de conectar e valorizar as pessoas através de elogios.</p>
 
 <h2>⛏️ Tecnologias</h2>
 
